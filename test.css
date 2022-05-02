@@ -1,17 +1,63 @@
-ul.nav {
-  background: gray;
-  padding: 1em;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Style the nav bar for the sections */
+.nav {
+  background-color: #f1f1f1;
+  padding: 0px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
   text-align: center;
 }
 
-li {
-  width: 200px;
-  display: inline-block;
-  background: darkgrey;
-  padding: .5em;
-   overflow:hidden;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
-body {
-  height: 100%;
-   overflow:hidden;
+ul.nav {
+  background: deepskyblue;
+ /padding: 1em; 
+  text-align: center;
+}
+
+li.nav {
+  display: inline-block;
+  background: tomato;
+  padding: .5em;
 }
