@@ -9,4 +9,9 @@ li {
   display: inline-block;
   background: darkgrey;
   padding: .5em;
+   overflow:hidden;
+}
+body {
+  height: 100%;
+   overflow:hidden;
 }
