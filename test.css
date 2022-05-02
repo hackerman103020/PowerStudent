@@ -1,0 +1,12 @@
+ul.nav {
+  background: gray;
+  padding: 1em;
+  text-align: center;
+}
+
+li {
+  width: 200px;
+  display: inline-block;
+  background: darkgrey;
+  padding: .5em;
+}
