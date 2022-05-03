@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+    margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columninfo {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 550px; /* Should be removed. Only for demonstration */
+}
+.columnnav {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 550px; /* Should be removed. Only for demonstration */
+}
+.nav {
+  float: top;
+  width: 100%;
+  padding: 10px;
+  height: 60px; /* Should be removed. Only for demonstration */
+}
+.footer {
+  float: bottom;
+  width: 100%;
+  padding: 10px;
+height: 10%;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
