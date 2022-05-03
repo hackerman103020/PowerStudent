@@ -1,2 +1,2 @@
 //alert(f);
-alert(process.env.test);
+console.log(process.env.test);
