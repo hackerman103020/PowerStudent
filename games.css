@@ -11,15 +11,28 @@ body {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 80%;
   padding: 10px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 550px; /* Should be removed. Only for demonstration */
+}
+.columnnav {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 550px; /* Should be removed. Only for demonstration */
 }
 .nav {
   float: top;
   width: 100%;
   padding: 10px;
-  height: 30px; /* Should be removed. Only for demonstration */
+  height: 60px; /* Should be removed. Only for demonstration */
+}
+.footer {
+  float: bottom;
+  width: 100%;
+  padding: 10px;
+height: 10%;
+  
 }
 
 /* Clear floats after the columns */
