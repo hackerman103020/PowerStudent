@@ -10,3 +10,8 @@ if ( pagetest !=  "https://powerschool-log.glitch.me/testing.html")
       alert("no");
       window.location.href = "https://powerschool-log.glitch.me/testing.html";
     }
+ var password = document.getElementById("passwordBox");
+  
+
+
+
