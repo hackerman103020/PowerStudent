@@ -13,6 +13,7 @@ body {
  
   text-align: center;
   cursor: pointer;
+  margin:0;
 }
 
 .containerTab {
@@ -38,19 +39,22 @@ body {
   float: left;
   width: 80%;
   padding: 10px;
-  height: 550px; /* Should be removed. Only for demonstration */
+  height: 550px;
+  margin:0;/* Should be removed. Only for demonstration */
 }
 .columnnav {
   float: left;
   width: 20%;
   padding: 10px;
-  height: 550px; /* Should be removed. Only for demonstration */
+  height: 550px;
+  margin:0;/* Should be removed. Only for demonstration */
 }
 .nav {
-  float: top;
-  width: 100%;
-  padding: 10px;
-  height: 60px; /* Should be removed. Only for demonstration */
+  background-color: #f1f1f1;
+  padding: 0px;
+  margin:0;
+  text-align: center;
+  font-size: 15px;
 }
 .footer {
   float: bottom;
@@ -58,4 +62,21 @@ body {
   padding: 10px;
 height: 10%;
   
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+ul.nav {
+  background: deepskyblue;
+
+  text-align: center;
+}
+
+li.nav {
+  display: inline-block;
+  background: tomato;
+  /* padding: .5em; */
 }
