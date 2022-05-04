@@ -1,10 +1,10 @@
 var pagetest = document.referrer;
-if ( pagetest ==  "https://powerschool-log.glitch.me/testing.html") 
+if ( pagetest ==  "https://powerschool-log.glitch.me/gameslogin.html") 
     //checks if the last used website is the password website 
     {
       alert("yes");
     }
-if ( pagetest !=  "https://powerschool-log.glitch.me/testing.html") 
+if ( pagetest !=  "https://powerschool-log.glitch.me/gameslogin.html") 
     //checks if the last used website is the password website 
     {
       alert("no");
