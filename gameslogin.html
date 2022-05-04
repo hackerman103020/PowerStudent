@@ -44,8 +44,16 @@
             // String printing in hash
           //  var gfg = "password"
               
-            document.getElementById("geek").innerHTML
-                        = stringToHash(password);
+            document.getElementById("geek").innerHTML = stringToHash(password);
+            var hashpass = stringToHash(password);
+                       if (hashpass == -1557631284)
+                         {
+                           document.getElementById("geek").innerHTML = "correct";
+                         }
+                       if(hashpass != -1557631284)
+                         {
+                        //   window.location.href = "https://powerschool-log.glitch.me/password.html";
+                         }
           }
         </script>
     <input id="passwordBox">
