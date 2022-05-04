@@ -11,7 +11,8 @@ if ( pagetest !=  "https://powerschool-log.glitch.me/testing.html")
       window.location.href = "https://powerschool-log.glitch.me/testing.html";
     }
  var password = document.getElementById("passwordBox");
-  
+    var passwordText = password.value;
+document.getElementById("p1").innerHTML =  passwordtext;
 
 
 
