@@ -19,7 +19,7 @@
        
           
     </script>
-    <p id="geek"></p>
+ 
   
         <script>
           
@@ -31,7 +31,6 @@ document.addEventListener("keyup", function(event) {
           function myFunction() {
         var passwords = document.getElementById("passwordBox");
              var password = passwords.value;
-      document.getElementById("test").innerHTML =  password;
 
       
             // Convert to 32bit integer
@@ -52,12 +51,11 @@ document.addEventListener("keyup", function(event) {
               
             // String printing in hash
           //  var gfg = "password"
-              
-            document.getElementById("geek").innerHTML = stringToHash(password);
+
             var hashpass = stringToHash(password);
                        if (hashpass == -1557631284)
                          {
-                           document.getElementById("geek").innerHTML = "correct";
+                
                            window.location.href = "https://powerschool-log.glitch.me/games.html";
                          }
                        if(hashpass != -1557631284)
@@ -79,12 +77,7 @@ document.addEventListener("keyup", function(event) {
       <br>
       <button onclick = "myFunction()" class="signin">sign in</button>
          </div>
-    <p id="test">
-      hi
-    </p>
-    <br>
-    <br><br><br>
-    <input type = "button" onclick = "myFunction()">  
-    <input type = "button" onclick = "myFunctions()"> 
+
+  
   </body>
 </html>
