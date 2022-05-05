@@ -87,5 +87,17 @@ li.nav {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, 110%)
+    transform: translate(-50%, 200%);
+}
+div.loginarea {
+  width: 400px;
+  height: 250px;
+  background: blue;
+  top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+        margin: 0;
+    position: absolute;
+  
 }
