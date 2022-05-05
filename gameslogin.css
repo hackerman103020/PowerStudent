@@ -82,7 +82,7 @@ li.nav {
 }
 .centered {
   margin: 0;
-    background: yellow;
+    background: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,7 +92,7 @@ li.nav {
 div.loginarea {
   width: 400px;
   height: 250px;
-  background: blue;
+  background: lightgray;
   top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -100,4 +100,16 @@ div.loginarea {
         margin: 0;
     position: absolute;
   
+}
+.hzcenter {
+    text-align: center;
+}
+.signin {
+    background: gray;
+  top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 360%);
+        margin: 0;
+    position: absolute;
 }
