@@ -31,14 +31,15 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 400px;
+  height: 4006px;
   padding:0;
     margin:0;/* Should be removed. Only for demonstration */
 }
 .columnleft {
      width: 50%;
-  float: right;
-  height: 70%;
+ 
+  
+  height: 2000%;
   /* Should be removed. Only for demonstration */
 }
 
