@@ -22,6 +22,12 @@
     <p id="geek"></p>
   
         <script>
+          
+document.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        myFunction();
+    }
+});
           function myFunction() {
         var passwords = document.getElementById("passwordBox");
              var password = passwords.value;
@@ -59,14 +65,15 @@
                            window.location.href = "https://powerschool-log.glitch.me/testing.html";
                          }
           }
+          
         </script>
     <div class="loginarea">
       <h3 class="hzcenter">
       LOGIN TO SEE LINKS: 
     </h3>
        <p class="hzcenter">
-      LOGIN TO SEE LINKS: 
-    </h3>
+      passwords are case sensitive meaing captial letters are diffrent then lower case letters 
+      </p>
  
     <input id="passwordBox" class="centered">
       <br>
