@@ -39,7 +39,8 @@ body {
 
   float: right;
   width: 15%;
-
+  background-color: darkgray;  
+  padding: 15px;
   height: 100%;
  /* Should be removed. Only for demonstration */
 }
