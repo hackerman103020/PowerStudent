@@ -26,14 +26,22 @@ body {
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.column-left {
   width:100vw;
   float: left;
-  width: 50%;
+  width: 85%;
   padding: 10px;
-  height: 4006px;
+  height: 100%;
   padding:0;
     margin:0;/* Should be removed. Only for demonstration */
+}
+.column-right {
+
+  float: right;
+  width: 15%;
+
+  height: 100%;
+ /* Should be removed. Only for demonstration */
 }
 .columnleft {
      width: 50%;
