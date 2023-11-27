@@ -6,6 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding:0;
     margin:0;
+  height: 100vh;
 }
 
 /* Style the header */
@@ -26,31 +27,26 @@ body {
 }
 
 /* Create three equal columns that floats next to each other */
-.column-left {
+.column-right {
   width:100vw;
-  float: left;
+  background-color: darkgray;  
+  float: right;
   width: 85%;
   padding: 10px;
-  height: 100%;
+  height: 80%;
   padding:0;
     margin:0;/* Should be removed. Only for demonstration */
 }
-.column-right {
+.column-left {
 
-  float: right;
+  float: left;
   width: 15%;
   background-color: darkgray;  
   padding: 15px;
-  height: 100%;
+  height: 80%;
  /* Should be removed. Only for demonstration */
 }
-.columnleft {
-     width: 50%;
- 
-  
-  height: 2000%;
-  /* Should be removed. Only for demonstration */
-}
+
 
 /* Clear floats after the columns */
 .row:after {
