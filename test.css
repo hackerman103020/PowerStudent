@@ -19,7 +19,7 @@ body {
 
 /* Style the nav bar for the sections */
 .nav {
-  background-color: #f1f1f1;
+  background-color: lightgrey;
   padding: 0px;
   margin:0;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 /* Create three equal columns that floats next to each other */
 .column-right {
   width:100vw;
-  background-color: darkgray;  
+  background-color: gray;  
   float: right;
   width: 85%;
   padding: 10px;
@@ -69,7 +69,7 @@ body {
   }
 }
 ul.nav {
-  background: deepskyblue;
+  background: lightgrey;
 
   text-align: center;
 }
