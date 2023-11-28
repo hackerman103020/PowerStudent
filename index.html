@@ -52,18 +52,22 @@
 </div>
   
   <script>
-    int opac = 0.5;
+   var x = 1;
 function openNav() {
-  document.getElementById("mySidenav").style.width = "15%"
+  setTimeout(1000);
+  document.getElementById("mySidenav").style.width = "15%";
   document.getElementById("right-column").style.width = "85%";
-  document.getElementById("pic").style.width = opac;
+  document.getElementById("pic").style.opacity = x;
+
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("right-column").style.width = "100%";
+  x = x - 0.1;
 }
-</script>
+  </script>
+
   
   
 </body>
