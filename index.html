@@ -23,18 +23,18 @@
   <li class="nav"><a href="https://www.youtube.com/"><button>bookmarks</button></a></li>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <li class="nav"><a href="https://www.youtube.com/"><button>user submited</button></a></li>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 </ul>
 </div>
 
 
 
-  <div class="column-left">
+<!--  <div class="column-left">
   <h2 class="left">NEWS:</h2><p class="center"> We are back in production!!!</p>
     <h2 class="center">UPCOMING:</h2><p class="center">more unblockers</p>
-    <h2 class="center">OLD:</h2><p class="center">https://powerschool-log.glitch.me/testing.html<br><br><br><br><br><br></p>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> 
-  </div>
-  <div class="column-right">
+    <h2 class="center">OLD:</h2><p class="center">https://powerschool-log.glitch.me/testing.html<br><br><br><br><br><br></p> 
+  </div> -->
+  <div class="column-right" id="right-column">
     <h2 class="center">EXTRA:</h2>
     <br><br><br><br><br>
     <h2 class="center">OUR LINKS:</h2>
@@ -52,11 +52,13 @@
   
   <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "15%";
+  document.getElementById("mySidenav").style.width = "15%"
+  document.getElementById("right-column").style.width = "85%";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right-column").style.width = "100%";
 }
 </script>
   

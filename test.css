@@ -31,11 +31,13 @@ body {
   width:100vw;
   background-color: gray;  
   float: right;
-  width: 85%;
+  width: 100%;
   padding: 10px;
   height: 80%;
   padding:0;
     margin:0;/* Should be removed. Only for demonstration */
+    overflow-x: hidden;
+  transition: 0.5s;
 }
 .column-left {
 
@@ -102,8 +104,8 @@ li.nav {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
+  top: 10;
+  left: 10;
   background-color: #111111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -132,3 +134,4 @@ li.nav {
 }
 
 
+ 
