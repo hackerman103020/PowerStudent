@@ -137,10 +137,12 @@ li.nav {
 
 .mySlides {
     transition: 0.5s;
-  max-width:40%;
+  max-width: 70%;
    display: block;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top; 15%;
+  float: right;
 }
 
 
