@@ -35,6 +35,11 @@
   </div> -->
   <div class="column-right" id="right-column">
     <span style="font-size:30px;cursor:pointer;text-align:left;padding:10px;" onclick="openNav()">&#9776; open</span>
+    <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f603.svg" style="width:100%">
+  <img class="mySlides" src="img_ny.jpg" style="width:100%">
+  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+</div>
     <img src="https://external-preview.redd.it/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.jpg?auto=webp&s=c7b38ae4d6bd4432ae1e8a57d1da921ff84bdb27" id="pic" width="90%" height="90%" >
     <h2 class="centerwe">EXTRA:</h2>
     <br><br><br><br><br>
@@ -49,12 +54,27 @@
   <a href="#">unblockers</a>
   <a href="#">bookmarks</a>
   <a href="#">user submited</a>
-</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script></div>
   
   <script>
    var x = 1;
 function openNav() {
-  setTimeout(1000);
   document.getElementById("mySidenav").style.width = "15%";
   document.getElementById("right-column").style.width = "85%";
   document.getElementById("pic").style.opacity = x;
