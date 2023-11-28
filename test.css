@@ -135,5 +135,8 @@ li.nav {
   margin-left: 50px;
 }
 
+.mySlides {
+    transition: 0.5s;
 
+}
  
