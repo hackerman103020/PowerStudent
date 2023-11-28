@@ -35,7 +35,7 @@
   </div> -->
   <div class="column-right" id="right-column">
     <span style="font-size:30px;cursor:pointer;text-align:left;padding:10px;" onclick="openNav()">&#9776; open</span>
-    <img src="https://external-preview.redd.it/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.jpg?auto=webp&s=c7b38ae4d6bd4432ae1e8a57d1da921ff84bdb27" alt="Cinque Terre" width="90%" height="90%">
+    <img src="https://external-preview.redd.it/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.jpg?auto=webp&s=c7b38ae4d6bd4432ae1e8a57d1da921ff84bdb27" id="pic" width="90%" height="90%" >
     <h2 class="centerwe">EXTRA:</h2>
     <br><br><br><br><br>
     <h2 class="centerwe">OUR LINKS:</h2>
@@ -52,9 +52,11 @@
 </div>
   
   <script>
+    int opac = 0.5;
 function openNav() {
   document.getElementById("mySidenav").style.width = "15%"
   document.getElementById("right-column").style.width = "85%";
+  document.getElementById("pic").style.width = opac;
 }
 
 function closeNav() {
