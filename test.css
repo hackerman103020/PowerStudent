@@ -142,15 +142,15 @@ li.nav {
  
 
 .fadein {
-  
-    top:50px;
-    left:50px;
+    position:absolute;
+    top:50%;
+    left:50%;
     margin:auto;
 }
 .fadein img {
-    
-    top:50px;
-    left:50px;
+    position:absolute;
+    top:50%;
+    left:50%;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 6s;
