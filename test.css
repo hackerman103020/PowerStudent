@@ -4,8 +4,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding:0;
-    margin:0;
+  padding: 0;
+  margin: 0;
   height: 100vh;
 }
 
@@ -13,43 +13,52 @@ body {
 .header {
   background-color: #f1f1f1;
   padding: 1px;
-
   height: 10%;
+    position: relative; 
 }
-
-/* Style the nav bar for the sections */
-.nav {
-  background-color: lightgrey;
-  padding: 0px;
-  margin:0;
+.header-div{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  transform: translate(-50%,-50%);
+}
+.welcome {
+ font-size: 16px;
+    /* 100 = viewport width, as 1vw = 1/100th of that
+       Here, the body is 150% of viewport, but the container is 50%
+       of viewport, so both parents factor  into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 3.75vw
+       (5 * 1.5 [i.e. 150%]) * .5 [i.e. 50%]
+    */
+    font-size: 3.75vw;
+  margin: 1%;
+  padding: 0%;
   text-align: center;
-  font-size: 15px;
-  height: 5%;
 }
 
 /* Create three equal columns that floats next to each other */
 .column-right {
-  width:100vw;
-  background-color: gray;  
+  width: 100vw;
+  background-color: gray;
   float: right;
   width: 100%;
   padding: 10px;
   height: 85%;
-  padding:0;
-    margin:0;/* Should be removed. Only for demonstration */
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0; /* Should be removed. Only for demonstration */
+  overflow-x: hidden;
   transition: 0.5s;
 }
 .column-left {
-
   float: left;
   width: 15%;
-  background-color: darkgray;  
+  background-color: darkgray;
   padding: 15px;
   height: 85%;
- /* Should be removed. Only for demonstration */
+  /* Should be removed. Only for demonstration */
 }
-
 
 /* Clear floats after the columns */
 .row:after {
@@ -71,17 +80,43 @@ body {
     width: 100%;
   }
 }
+/* Style the nav bar for the sections */
+.nav {
+  background-color: lightgrey;
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  height: 5vh; 
+  width: 100vw;
+  position: relative;  
+}
+.nav-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  transform: translate(-50%,-50%);
+}
+.scroll-text {
+  font-size: 10px;
+    /* 100 = viewport width, as 1vw = 1/100th of that
+       Here, the body is 150% of viewport, but the container is 50%
+       of viewport, so both parents factor  into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 3.75vw
+       (5 * 1.5 [i.e. 150%]) * .5 [i.e. 50%]
+    */
+    font-size: 2vw;
+}
 ul.nav {
   background: lightgrey;
-
-  text-align: center;
+  text-align: center; 
 }
 
 li.nav {
   display: inline-block;
-  background: tomato;
-
-  /* padding: .5em; */
+ /*  padding-left: 10%; */
 }
 #overflowTest {
   background: darkgray;
@@ -94,11 +129,6 @@ li.nav {
 .center {
   text-align: center;
 }
-
-
-
-
-
 
 .sidenav {
   height: 100%;
@@ -135,19 +165,79 @@ li.nav {
 }
 
 .mySlides {
-    transition: 0.5s;
+  transition: 0.5s;
   max-width: 60%;
-   display: block;
+  display: block;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 0%;
   margin-bottom: 5%;
   float: right;
 }
-
-.welcome{
-    font-size: 350%;
-  margin: 1%;
-  padding: 0%;
-   text-align: center;
+.c-center{
+  background-color:black;
+  width:25%;
+  height:90%;
+  display: block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: left; 
 }
+.cc-center{
+  background-color:yellow;
+  width:65%;
+  height:90%;
+  display: block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: right; 
+}
+.ccc-center{
+  background-color:white;
+  width:65%;
+  height:90%;
+  display: block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: right; 
+}
+.cccc-center{
+  background-color:grey;
+  width:95%;
+  height:55%;
+  display: block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: top; 
+}
+.cd-center{
+  background-color:pink;
+  width:95%;
+  height:35%;
+  display: block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: bottom; 
+}
+.left {
+    background-color:blue;
+   width:15%;
+  height:100%;
+    float: left; 
+}.right {
+    background-color:red;
+   width:85%;
+  height:100%;
+    float: right; 
+}
+
