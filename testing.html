@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel = "icon" href = 
+"https://cdn.glitch.me/064d6d04-b4ca-493d-bf33-c2e9f010b6d1%2FPowerSchool-logo.png?v=1637164708814" 
+        type = "image/x-icon">
+	<title>Power school</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="test.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="header" id="header">
+  <div class="header-div">
+    <h1 class="welcome"><b>Welcome to PowerStudent, Power to the Students!</b></h1>
+  </div>
+</div>
+  <div class="nav">
+    
+     <div class="nav-center">
+    <marquee behavior="scroll" direction="left" class="scroll-text" >Here is some scrolling text</marquee>
+
+    </div>
+    
+ <!--  <ul class="nav">
+  <li class="nav"><a href="/gameslogin.html"><button>games</button></a></li>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="nav"><a href="https://www.youtube.com/"><button>unblockers</button></a></li>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="nav"><a href="https://www.youtube.com/"><button>bookmarks</button></a></li>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="nav"><a href="https://www.youtube.com/"><button>user submited</button></a></li>
+</ul> -->
+</div>
+
+
+
+<!--  <div class="column-left">
+  <h2 class="left">NEWS:</h2><p class="center"> We are back in production!!!</p>
+    <h2 class="center">UPCOMING:</h2><p class="center">more unblockers</p>
+    <h2 class="center">OLD:</h2><p class="center">https://powerschool-log.glitch.me/testing.html<br><br><br><br><br><br></p> 
+  </div> -->
+<div class="column-right" id="right-column">
+  <div class="left">
+      
+    <span style="font-size:30px;cursor:pointer;text-align:left;padding:10px;" onclick="openNav()">&#9776; open</span>
+      <h2 class="centerwe">EXTRA:</h2>
+    <br><br><br><br><br>
+    <h2 class="centerwe">OUR LINKS:</h2>
+    
+  </div>
+    <div class="right">
+      <div class="cc-center">
+         <div class="ccc-center">
+           <div class="cccc-center">
+             discreption
+           </div>
+             <div class="cd-center">
+                 screen shots               
+             </div>
+         </div>
+      <div class="c-center" style="color:white;">
+       links
+      </div>
+    </div>
+    <div class="c-center" style="color:white;">
+      types
+    </div>
+  </div> 
+</div>
+
+
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/gameslogin.html">games</a>
+  <a href="#">unblockers</a>
+  <a href="#">bookmarks</a>
+  <a href="#">user submited</a>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+    </script></div>
+  
+  <script>
+   var x = 1;
+function openNav() {
+  document.getElementById("mySidenav").style.width = "15%";
+  document.getElementById("right-column").style.width = "85%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right-column").style.width = "100%";
+}
+  </script>
+
+  
+  
+</body>
+</html>
